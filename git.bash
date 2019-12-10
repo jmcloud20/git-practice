@@ -10,14 +10,20 @@ git config --global user.email "josephm.garcia@pccw.com"
 git config --global core.editor "code --wait"
 # Add remote repository
 git remote add origin https://github.com/jmcloud20/git-practice.git
+
 # Enable tracking so we can only execute git pull
 git branch --set-upstream-to=origin/master master
+git checkout --track origin/add-bootstrap
+
 # Using GIT annotate. Displays detailed info per line per commit.
 git annotate index.html
+
 # Revert back to the previous version of the file.
 git checkout -- index.html
 git checkout d1a6db1a6e0327124df8fd314de9bbd05ff8a700
+
 # Unstage the file.
 git reset index.html
+
 # git branch, checkout to use branch
 # git checkout -b add-bootstrap
