@@ -5,6 +5,7 @@
 # Setup git config 
 git config --global user.name "Joseph Garcia"
 git config --global user.email "josephm.garcia@pccw.com"
+
 # This is for the case when you forgot to include commit message.
 # Would open the editor so you can enter commit message after saving then closing the editor.
 git config --global core.editor "code --wait"
@@ -27,3 +28,4 @@ git reset index.html
 
 # git branch, checkout to use branch
 # git checkout -b add-bootstrap
+# git log --graph
